@@ -1,0 +1,103 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* Import Inter Variable font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* You can override the default Infima variables here. */
+:root {
+  /* Primary color - Indigo */
+  --ifm-color-primary: #6366F1;
+  --ifm-color-primary-dark: #4F46E5;
+  --ifm-color-primary-darker: #4338CA;
+  --ifm-color-primary-darkest: #3730A3;
+  --ifm-color-primary-light: #818CF8;
+  --ifm-color-primary-lighter: #A5B4FC;
+  --ifm-color-primary-lightest: #C7D2FE;
+  
+  /* Secondary color - Indigo variation */
+  --ifm-color-secondary: #8284FF;
+  --ifm-color-secondary-dark: #6A6CFF;
+  --ifm-color-secondary-darker: #5254FF;
+  --ifm-color-secondary-darkest: #3A3CFF;
+  --ifm-color-secondary-light: #9A9CFF;
+  --ifm-color-secondary-lighter: #B2B4FF;
+  --ifm-color-secondary-lightest: #CACBFF;
+  
+  /* Success color */
+  --ifm-color-success: #10B981;
+  --ifm-color-success-dark: #059669;
+  --ifm-color-success-darker: #047857;
+  --ifm-color-success-darkest: #065F46;
+  --ifm-color-success-light: #34D399;
+  --ifm-color-success-lighter: #6EE7B7;
+  --ifm-color-success-lightest: #A7F3D0;
+  
+  /* Warning color */
+  --ifm-color-warning: #F59E0B;
+  --ifm-color-warning-dark: #D97706;
+  --ifm-color-warning-darker: #B45309;
+  --ifm-color-warning-darkest: #92400E;
+  --ifm-color-warning-light: #FBBF24;
+  --ifm-color-warning-lighter: #FCD34D;
+  --ifm-color-warning-lightest: #FDE68A;
+  
+  /* Error/Danger color */
+  --ifm-color-danger: #EF4444;
+  --ifm-color-danger-dark: #DC2626;
+  --ifm-color-danger-darker: #B91C1C;
+  --ifm-color-danger-darkest: #991B1B;
+  --ifm-color-danger-light: #F87171;
+  --ifm-color-danger-lighter: #FCA5A5;
+  --ifm-color-danger-lightest: #FECACA;
+  
+  /* Typography */
+  --ifm-font-family-base: 'Inter Variable', sans-serif;
+  --ifm-code-font-size: 95%;
+  
+  /* Code blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  /* Background for light mode */
+  --ifm-background-color: #FFFFFF;
+  --ifm-background-surface-color: #F8FAFC;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme="dark"] {
+  /* Primary color - Indigo */
+  --ifm-color-primary: #6366F1;
+  --ifm-color-primary-dark: #4F46E5;
+  --ifm-color-primary-darker: #4338CA;
+  --ifm-color-primary-darkest: #3730A3;
+  --ifm-color-primary-light: #818CF8;
+  --ifm-color-primary-lighter: #A5B4FC;
+  --ifm-color-primary-lightest: #C7D2FE;
+  
+  /* Background colors - from the MUI theme */
+  --ifm-background-color: #000000;
+  --ifm-background-surface-color: #121927;
+  
+  /* Text colors - from the MUI theme */
+  --ifm-font-color-base: #F4F8FF;
+  --ifm-font-color-secondary: #CBD5E1;
+  
+  /* Code blocks */
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Button styling */
+.button {
+  border-radius: 7px;
+  font-family: 'Inter Variable', sans-serif;
+}
+
+/* Remove background images from app bars/navigation */
+.navbar {
+  background-image: none;
+}
+
+/* Additional component customizations can be added below */
